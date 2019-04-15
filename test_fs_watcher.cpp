@@ -1,6 +1,7 @@
-// Compilation example for GCC (v8 and up) and Clang (v7 and up):
+// Compilation example for GCC (v8 and up), Clang (v7 and up) and MSVC
 // g++ -std=c++17 -Wall -pedantic test_fs_watcher.cpp -o test_fs_watcher -lstdc++fs
 // clang++ -std=c++17 -stdlib=libc++ -Wall -pedantic test_fs_watcher.cpp -o test_fs_watcher -lc++fs
+// cl /W4 /EHsc /std:c++17 test_fs_watcher.cpp
 
 #include <iostream>
 #include "FileWatcher.h"
